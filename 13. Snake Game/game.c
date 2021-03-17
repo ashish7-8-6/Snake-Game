@@ -71,21 +71,21 @@ void draw()
 
 void input()
 {
-    if(kbhit())  //hvm
+    if(kbhit())  //gcn
     {
         char ch = getch();
 
         switch(ch)
         {
-        case 'h':
+        case 'g':
             flag=1;
             break;
 
-        case 'v':
+        case 'c':
             flag=2;
             break;
 
-        case 'm':
+        case 'n':
             flag=3;
             break;
 
